@@ -64,7 +64,7 @@ body {
 
 /* ...............................................navbar section ...............................*/
 header {
-  background-image: url(../Assets/Hero-bg.png);
+  background-image: url(Assets/Hero-bg.png);
   background-size: cover;
   height: 700px;
   margin: 0;
