@@ -250,3 +250,75 @@ header h1 {
    margin-top: 20px;
    margin-bottom: 50px;
 }
+
+/* contact-form */
+.contact-section{
+    display: flex;
+    justify-content: space-between;
+}
+.contact-section h1{
+    font-size: 97px;
+    margin-top: 250px;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    margin-bottom: 70px;
+}
+
+.contact-form input {
+  
+    width: 490px;
+    height: 50px;
+}
+.contact-form label{
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.border-form {
+     border-radius: 10px;
+     border: 1px solid;
+     margin-top: 15px;
+     border-color:#D6DDED;
+     padding-left: 28px;
+}
+.contact-form textarea {
+    padding-top: 20px;
+}
+
+.Touch{
+  width: 100%;
+  margin-top: 15px;
+}
+
+/* footer section */
+
+.footer{
+    width: 100%;
+    height: 380px;
+    border-radius: 0;
+    text-align: center;
+    padding-top: 20px;
+}
+.footer h1{
+    font-size: 90px;
+    font-weight:bolder;
+    margin-bottom: 10px;
+}
+.footer-desc{
+    color: #8987A1;
+   font-weight: lighter;
+   font-size: 14px;
+   margin-bottom: 10px;
+}
+.services{
+   display: flex;
+   gap: 45px;
+   list-style: none;
+   justify-content: center;
+   
+}
