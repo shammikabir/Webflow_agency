@@ -1,4 +1,4 @@
-/* common style */
+/*................................. common style......................................... */
 
 .inter-font {
   font-family: "Inter", sans-serif;
@@ -7,318 +7,291 @@
   font-style: normal;
 }
 
-.color-code{
-
-   color:#4E47FF;
+.color-code {
+  color: #4e47ff;
 }
 body {
-    margin: 0 ;
-    font-family: "Raleway", sans-serif;
-    background-color: rgba(245, 248, 255, 1);
-        
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  background-color: rgba(245, 248, 255, 1);
 }
 
 .raleway {
-     
-    font-style: normal;
-  }
-
-  .logo-font {
-    font-family: "Inter", sans-serif;
-    font-weight: 800;
-}
- .container{
-    margin: 0 150px 10px 150px; 
- } 
- .primary-btn{
-    background-color: #4E47FF;
-    width: 132px;
-    height: 48px;
-    border: none;
-    border-radius: 10px;
-    color: aliceblue;
-    font-size: 16px;
-    font-weight: bold;
-
-}
-.primary-btn:hover{
-     background-color: rgb(218, 58, 0);
-     transform: translateY(-2px);
-  
-
+  font-style: normal;
 }
 
-.flexbox{
-    
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
+.logo-font {
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
 }
-.bold{
-    font-weight: bold;
+.container {
+  margin: 0 150px 10px 150px;
+}
+.primary-btn {
+  background-color: #4e47ff;
+  width: 132px;
+  height: 48px;
+  border: none;
+  border-radius: 10px;
+  color: aliceblue;
+  font-size: 16px;
+  font-weight: bold;
+}
+.primary-btn:hover {
+  background-color: rgb(218, 58, 0);
+  transform: scale(1.02);
+}
+
+.flexbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bold {
+  font-weight: bold;
 }
 
 .description {
-    color: rgba(37, 36, 50, 0.5);
-    font-size: 20px;
+  color: rgba(37, 36, 50, 0.5);
+  font-size: 20px;
 }
 
-.border{
-    border: 1px solid  rgba(242, 237, 237, 1);
-    background-color: #FFFF;
-    border-radius: 14px;
+.border {
+  border: 1px solid rgba(242, 237, 237, 1);
+  background-color: #ffff;
+  border-radius: 14px;
 }
 
-/* navbar section */
-header{
-    background-image: url(../Assets/Hero-bg.png);
-    background-size: cover;
-    height: 700px;
-    margin: 0;
-
+/* ...............................................navbar section ...............................*/
+header {
+  background-image: url(../Assets/Hero-bg.png);
+  background-size: cover;
+  height: 700px;
+  margin: 0;
 }
 
 nav h3 {
-    font-size: 34px;
+  font-size: 34px;
 }
 header h1 {
-    font-size: 65px;
-    margin-top: 180px;
- 
-    text-align: center;
+  font-size: 65px;
+  margin-top: 180px;
 
+  text-align: center;
 }
-.stay-btn{
-   width: 174px;
-   margin: 15px 640px 200px 640px ;
+.stay-btn {
+  width: 174px;
+  margin: 15px 640px 200px 640px;
 }
 
-
-/* live preview section */
-.live-preview{
-    margin-top: 155px;
+/* .............................................live preview section........................... */
+.live-preview {
+  margin-top: 60px;
 }
-.image{
-    border-radius: 48px;
-    margin-top:110px;
-    width: 400px;
-    height: 320px;
+.image {
+  border-radius: 48px;
+  margin-top: 110px;
+  width: 400px;
+  height: 320px;
 }
 
 .live-preview h2 {
-    font-size: 34px;
+  font-size: 34px;
+  margin-bottom: 0;
 }
 
-
-.preview-btn{
-    width: 228px;
-    margin-top: 20px;
+.preview-btn {
+  width: 228px;
 }
 
-/* productive user  */
-.user{
-    background-color: rgba(78, 71, 255, 0.1);
-    margin-top: 150px;
-    border-radius: 24px;
-    height: 320px;
+/*............................................ productive user .............................. */
+.user {
+  background-color: rgba(78, 71, 255, 0.1);
+  margin-top: 150px;
+  border-radius: 24px;
+  height: 320px;
 }
 
-.productive-user h3{
-    font-size: 35px;
-    padding-top: 45px;
-    padding-left: 290px;
-    margin-bottom: 0;
-
+.productive-user h3 {
+  font-size: 35px;
+  padding-top: 45px;
+  padding-left: 290px;
+  margin-bottom: 0;
 }
 
-.user-count{
-    display: flex;
-    gap: 130px;
-    justify-content: center;
-  
-    
-     
+.user-count {
+  display: flex;
+  gap: 130px;
+  justify-content: center;
 }
-.productive-user h3{
-    margin-bottom: 55px;
-  
+.productive-user h3 {
+  margin-bottom: 55px;
 }
 .user-count h2,
 .user-count p {
   margin: 0px;
   padding: 0;
 }
-.user-count h2{
-    font-size: 80px;
-    margin-bottom: 0;
-    color: #4E47FF;
-    
-
+.user-count h2 {
+  font-size: 80px;
+  margin-bottom: 0;
+  color: #4e47ff;
 }
 
 .user-count p {
-     color: rgba(37, 36, 50, 0.5);
-     text-align: center;
-     font-weight: normal;
+  color: rgba(37, 36, 50, 0.5);
+  text-align: center;
+  font-weight: normal;
 }
 
 /* ............................User feedback................................ */
-.total-feedback{
-    display: flex;
-    gap: 20px;
-    
+.total-feedback {
+  display: flex;
+  gap: 20px;
 }
-.feedback-sec h2{
-    font-size: 42px;
-    text-align: center;
-    margin-top: 115px;
-    margin-bottom: 40px;
+.feedback-sec h2 {
+  font-size: 42px;
+  text-align: center;
+  margin-top: 115px;
+  margin-bottom: 40px;
 }
-.rating{ 
-    width: 366px;
-    height: 243px;
-    margin-top: 40px;
-    padding: 25px;
+.rating {
+  width: 366px;
+  height: 243px;
+  margin-top: 40px;
+  padding: 25px;
 }
-.star-rating{
-   display: flex;
-   gap: 10px;
-}
-
-.reviewer{
-    display: flex;
-    gap: 15px;
-    align-items: center;
-    margin-top: 25px;
-    
+.star-rating {
+  display: flex;
+  gap: 10px;
 }
 
-.feedback-sec h4{
-    font-size: 23px;
-    margin-bottom: 0;
+.reviewer {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-top: 25px;
 }
 
-.reviewer img{
-    height: 45px;
-    width: 45px;
-    border-radius: 100px;
-    /* margin-top: 20px; */
+.feedback-sec h4 {
+  font-size: 23px;
+  margin-bottom: 0;
+}
+
+.reviewer img {
+  height: 45px;
+  width: 45px;
+  border-radius: 100px;
+  /* margin-top: 20px; */
 }
 .reviewer p {
-    font-size: 14px;
-    margin: 5px;
-   
-  
+  font-size: 14px;
+  margin: 5px;
 }
-.reviewer-name{
-    color: rgb(102, 102, 102);
-    font-weight: bold;
+.reviewer-name {
+  color: rgb(102, 102, 102);
+  font-weight: bold;
 }
 
-.date{
-    color:rgb(150, 149, 149);
-    font-size: 11px;
-    font-weight: normal;
+.date {
+  color: rgb(150, 149, 149);
+  font-size: 11px;
+  font-weight: normal;
 }
 
+/* ............................................get-started ...................................*/
 
-/* get-started */
-
-.webflow{
-    text-align: center;   
-    margin-top: 130px;
+.webflow {
+  text-align: center;
+  margin-top: 130px;
 }
-.webflow h2{
-    font-size: 50px;
-    margin-top: 70px;
-    margin-bottom: 10px;
-}
-
-.webflow p{
-     color: rgba(37, 36, 50, 0.5);
-     font-size: 17px;
-}
-.started-btn{
-    width: 195px;
-    margin-top: 10px;
-
+.webflow h2 {
+  font-size: 50px;
+  margin-top: 70px;
+  margin-bottom: 10px;
 }
 
-.webflow img{
-    border-radius: 48px;
-   margin-top: 20px;
-   margin-bottom: 50px;
+.webflow p {
+  color: rgba(37, 36, 50, 0.5);
+  font-size: 17px;
+}
+.started-btn {
+  width: 195px;
+  margin-top: 10px;
 }
 
-/* contact-form */
-.contact-section{
-    display: flex;
-    justify-content: space-between;
+.webflow img {
+  border-radius: 48px;
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
-.contact-section h1{
-    font-size: 97px;
-    margin-top: 250px;
+
+/* ........................................contact-form ..............................*/
+.contact-section {
+  display: flex;
+  justify-content: space-between;
 }
-.contact-form{
-    display: flex;
-    flex-direction: column;
-    margin-top: 150px;
-    margin-bottom: 70px;
+.contact-section h1 {
+  font-size: 97px;
+  margin-top: 250px;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
+  margin-bottom: 70px;
 }
 
 .contact-form input {
-  
-    width: 490px;
-    height: 50px;
+  width: 490px;
+  height: 50px;
 }
-.contact-form label{
-    margin-top: 15px;
-    font-weight: bold;
-    font-size: 18px;
+.contact-form label {
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 18px;
 }
-
 
 .border-form {
-     border-radius: 10px;
-     border: 1px solid;
-     margin-top: 15px;
-     border-color:#D6DDED;
-     padding-left: 28px;
+  border-radius: 10px;
+  border: 1px solid;
+  margin-top: 15px;
+  border-color: #d6dded;
+  padding-left: 28px;
 }
 .contact-form textarea {
-    padding-top: 20px;
+  padding-top: 20px;
 }
 
-.Touch{
+.Touch {
   width: 100%;
   margin-top: 15px;
 }
 
-/* footer section */
+/* ..........................................footer section ..................................*/
 
-.footer{
-    width: 100%;
-    height: 380px;
-    border-radius: 0;
-    text-align: center;
-    padding-top: 20px;
+.footer {
+  width: 100%;
+  height: 380px;
+  border-radius: 0;
+  text-align: center;
+  padding-top: 20px;
 }
-.footer h1{
-    font-size: 90px;
-    font-weight:bolder;
-    margin-bottom: 10px;
+.footer h1 {
+  font-size: 90px;
+  font-weight: bolder;
+  margin-bottom: 10px;
 }
-.footer-desc{
-    color: #8987A1;
-   font-weight: lighter;
-   font-size: 14px;
-   margin-bottom: 10px;
+.footer-desc {
+  color: #8987a1;
+  font-weight: lighter;
+  font-size: 14px;
+  margin-bottom: 20px;
 }
-.services{
-   display: flex;
-   gap: 45px;
-   list-style: none;
-   justify-content: center;
-   
+.services {
+  display: flex;
+  gap: 45px;
+  list-style: none;
+  justify-content: center;
 }
+/*.............................................. all done ....................................*/
