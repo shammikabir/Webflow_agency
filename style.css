@@ -1,2 +1,97 @@
+/* common style */
+
+.color-code{
+
+   color:#4E47FF;
+}
+body {
+    margin: 0 ;
+    font-family: "Raleway", sans-serif;
+        
+}
+
+.raleway {
+     
+    font-style: normal;
+  }
+
+  .logo-font {
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+}
+ .container{
+    margin: 0 150px 10px 150px; 
+ } 
+ .primary-btn{
+    background-color: #4E47FF;
+    width: 132px;
+    height: 48px;
+    border: none;
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.flexbox{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.bold{
+    font-weight: bold;
+}
+
+.description {
+    color: rgba(37, 36, 50, 0.5);
+    font-size: 20px;
+}
+
+/* navbar section */
+header{
+    background-image: url(../Assets/Hero-bg.png);
+    background-size: cover;
+    height: 700px;
+    margin: 0;
+
+}
+
+nav h3 {
+    font-size: 34px;
+}
+header h1 {
+    font-size: 65px;
+    margin-top: 180px;
+ 
+    text-align: center;
+
+}
+.stay-btn{
+   width: 174px;
+   margin: 15px 640px 200px 640px ;
+}
 
 
+/* live preview section */
+.live-preview{
+    margin-top: 155px;
+}
+.image{
+    border-radius: 48px;
+    margin-top:110px;
+    width: 400px;
+    height: 320px;
+}
+
+.live-preview h2 {
+    font-size: 34px;
+}
+
+
+.preview-btn{
+    width: 228px;
+    margin-top: 20px;
+}
